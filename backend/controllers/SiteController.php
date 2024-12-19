@@ -90,7 +90,14 @@ class SiteController extends Controller
         $model = new LoginForm();
         if ($this->request->isPost) {
           $usr = $_POST['LoginForm']['username'];
-          $id = User::find()->where(['username' => $usr])->one()
+          $id = User::find()->where(['username' => $usr])->one();
+          if (User::find()->where(['username' => $usr])->one()) {
+            $access = $id->getAttribute('Access_level');
+            if ($access <= 5) {
+              if ($model->load(Yii::$app->request->post()) && $model->login()) {
+                return $this->goBack();
+              }
+            }
           }
         }
 
