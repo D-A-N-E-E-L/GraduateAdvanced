@@ -2,6 +2,11 @@
 
 namespace common\models;
 
+use DateTimeImmutable;
+use Lcobucci\JWT\Signer\Hmac\Sha256;
+use Lcobucci\JWT\Signer\Key\InMemory;
+use Lcobucci\JWT\Token\Builder;
+use Lcobucci\JWT\Token\Parser;
 use Yii;
 use yii\base\NotSupportedException;
 use yii\behaviors\TimestampBehavior;
@@ -22,6 +27,7 @@ use yii\web\IdentityInterface;
  * @property integer $status
  * @property integer $created_at
  * @property integer $updated_at
+ * @property string $access_token
  * @property string $password write-only password
  */
 class User extends ActiveRecord implements IdentityInterface
@@ -36,7 +42,7 @@ class User extends ActiveRecord implements IdentityInterface
      */
     public static function tableName()
     {
-        return '{{%polzovatel}}';
+        return '{{%user}}';
     }
 
     /**
@@ -57,6 +63,7 @@ class User extends ActiveRecord implements IdentityInterface
         return [
             ['status', 'default', 'value' => self::STATUS_INACTIVE],
             ['status', 'in', 'range' => [self::STATUS_ACTIVE, self::STATUS_INACTIVE, self::STATUS_DELETED]],
+            ['access_token', 'string', 'max' => 255],
         ];
     }
 
@@ -66,14 +73,6 @@ class User extends ActiveRecord implements IdentityInterface
     public static function findIdentity($id)
     {
         return static::findOne(['id' => $id, 'status' => self::STATUS_ACTIVE]);
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public static function findIdentityByAccessToken($token, $type = null)
-    {
-        throw new NotSupportedException('"findIdentityByAccessToken" is not implemented.');
     }
 
     /**
@@ -117,7 +116,10 @@ class User extends ActiveRecord implements IdentityInterface
             'status' => self::STATUS_INACTIVE
         ]);
     }
-
+    public static function findIdentityByAccessToken($token, $type = null)
+    {
+      return static::findOne(['access_token' => $token]);
+    }
     /**
      * Finds out if password reset token is valid
      *
@@ -150,6 +152,7 @@ class User extends ActiveRecord implements IdentityInterface
     {
         return $this->auth_key;
     }
+
 
     /**
      * {@inheritdoc}
@@ -186,6 +189,7 @@ class User extends ActiveRecord implements IdentityInterface
     public function generateAuthKey()
     {
         $this->auth_key = Yii::$app->security->generateRandomString();
+        $this->access_token = Yii::$app->security->generateRandomString(32);
     }
 
     /**
@@ -211,4 +215,5 @@ class User extends ActiveRecord implements IdentityInterface
     {
         $this->password_reset_token = null;
     }
+
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace app\models;
+namespace common\models;
 
 use Yii;
 use yii\web\UploadedFile;
@@ -39,7 +39,7 @@ class Graduat extends \yii\db\ActiveRecord
   public function rules()
   {
     return [
-      [['msw', 'birthday', 'entersyear', 'exityear', 'ts', 'photo', 'class', 'idt', 'ido', 'idsvs', 'parents', 'address', 'phone', 'dlc'], 'required'],
+      [['nsw', 'birthday', 'entersyear', 'exityear', 'ts', 'class', 'idt', 'ido', 'idsvs', 'parents', 'address', 'phone', 'dlc'], 'required'],
       [['ids', 'entersyear', 'exityear', 'idt', 'ido', 'idsvs'], 'integer'],
       [['birthday'], 'safe'],
       [['nsw', 'ts', 'class', 'parents', 'address', 'phone', 'dlc'], 'string', 'max' => 100],

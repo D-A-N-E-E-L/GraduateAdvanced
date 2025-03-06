@@ -3,25 +3,26 @@
 namespace frontend\controllers;
 
 use app\models\Graduat;
-use app\models\Service;
-use app\models\Technical;
-use app\models\Work;
+use common\models\LoginForm;
+use common\models\User;
+use frontend\models\ContactForm;
+use frontend\models\PasswordResetRequestForm;
 use frontend\models\ResendVerificationEmailForm;
+use frontend\models\ResetPasswordForm;
+use frontend\models\SignupForm;
 use frontend\models\VerifyEmailForm;
 use Yii;
 use yii\base\InvalidArgumentException;
 use yii\data\ActiveDataProvider;
+use yii\filters\AccessControl;
+use yii\filters\VerbFilter;
 use yii\web\BadRequestHttpException;
 use yii\web\Controller;
-use yii\filters\VerbFilter;
-use yii\filters\AccessControl;
-use common\models\LoginForm;
-use frontend\models\PasswordResetRequestForm;
-use frontend\models\ResetPasswordForm;
-use frontend\models\SignupForm;
-use frontend\models\ContactForm;
 use yii\web\NotFoundHttpException;
-use yii\web\UploadedFile;
+use Lcobucci\JWT\token\Builder;
+use Lcobucci\JWT\Signer\Hmac\Sha256;
+use Lcobucci\JWT\Signer\Key\InMemory;
+use DateTimeImmutable;
 
 /**
  * Site controller
@@ -84,6 +85,10 @@ class SiteController extends Controller
     {
         return $this->render('index');
     }
+  public function actionToken()
+  {
+    return $this->render('token');
+  }
 
     /**
      * Logs in a user.
@@ -100,14 +105,12 @@ class SiteController extends Controller
         if ($model->load(Yii::$app->request->post()) && $model->login()) {
             return $this->goBack();
         }
-
-        $model->password = '';
+      $model->password = '';
 
         return $this->render('login', [
             'model' => $model,
         ]);
     }
-
     /**
      * Logs out the current user.
      *
@@ -134,10 +137,8 @@ class SiteController extends Controller
             } else {
                 Yii::$app->session->setFlash('error', 'There was an error sending your message.');
             }
-
             return $this->refresh();
         }
-
         return $this->render('contact', [
             'model' => $model,
         ]);

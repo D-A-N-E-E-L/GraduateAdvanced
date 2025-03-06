@@ -40,6 +40,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
         ['label' => 'Главная страница', 'url' => ['/site/index']],
         ['label' => 'Об сайте', 'url' => ['/site/about']],
         ['label' => 'Контакты', 'url' => ['/site/contact']],
+      ['label' => 'Контакты', 'url' => ['/site/token']],
     ];
     if (Yii::$app->user->isGuest) {
         $menuItems[] = ['label' => 'Регистрация', 'url' => ['/site/signup']];
