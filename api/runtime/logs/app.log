@@ -10272,3 +10272,2689 @@ $_SERVER = [
     'argv' => []
     'argc' => 0
 ]
+2025-03-06 06:42:13 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 06:42:13 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63719'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8050'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'b709ead5-3b8f-4902-9267-37145e0bd5d6'
+    'HTTP_HOST' => 'localhost:8050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'REQUEST_TIME_FLOAT' => 1741243333.4961
+    'REQUEST_TIME' => 1741243333
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 06:43:11 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 06:43:11 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(76): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#11 {main}
+2025-03-06 06:43:11 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63744'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8050'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '57dc1e9a-8ea7-4816-8967-c2aa1df00d35'
+    'HTTP_HOST' => 'localhost:8050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'REQUEST_TIME_FLOAT' => 1741243391.5948
+    'REQUEST_TIME' => 1741243391
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 06:43:23 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 06:43:23 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#12 {main}
+2025-03-06 06:43:23 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63750'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8050'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '60800355-7313-411c-a631-2b484443afa9'
+    'HTTP_HOST' => 'localhost:8050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1741243403.9284
+    'REQUEST_TIME' => 1741243403
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 06:43:24 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 06:43:24 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#12 {main}
+2025-03-06 06:43:24 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63754'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8050'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '8f8b0edb-de6b-456c-ac71-3fadf088961c'
+    'HTTP_HOST' => 'localhost:8050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1741243404.954
+    'REQUEST_TIME' => 1741243404
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 06:43:35 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 06:43:35 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#12 {main}
+2025-03-06 06:43:35 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63764'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8050'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '63b7d27d-c762-492b-9aa5-d1995a24734f'
+    'HTTP_HOST' => 'localhost:8050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1741243415.08
+    'REQUEST_TIME' => 1741243415
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 06:43:35 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 06:43:35 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#12 {main}
+2025-03-06 06:43:35 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63771'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8050'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '2fcbbcf1-1637-470f-b1ad-e400f13b2b2f'
+    'HTTP_HOST' => 'localhost:8050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1741243415.6741
+    'REQUEST_TIME' => 1741243415
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 06:43:36 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 06:43:36 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#12 {main}
+2025-03-06 06:43:36 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63777'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8050'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '1edeb91b-7999-4eeb-b24c-467f7b78c2f2'
+    'HTTP_HOST' => 'localhost:8050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1741243416.1313
+    'REQUEST_TIME' => 1741243416
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 06:43:48 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 06:43:48 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#12 {main}
+2025-03-06 06:43:48 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63786'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8050'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '558b4171-8947-4e78-8614-65f7f3743428'
+    'HTTP_HOST' => 'localhost:8050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1741243428.0662
+    'REQUEST_TIME' => 1741243428
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 06:43:54 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 06:43:54 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#12 {main}
+2025-03-06 06:43:54 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63802'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8050'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '498fc685-bb90-4b6c-99dc-0ea3ff28bd42'
+    'HTTP_HOST' => 'localhost:8050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1741243434.153
+    'REQUEST_TIME' => 1741243434
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 06:44:07 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 06:44:07 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#12 {main}
+2025-03-06 06:44:07 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63812'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8050'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'cfb16e91-3f2d-4026-8e4f-fe53f1b2d306'
+    'HTTP_HOST' => 'localhost:8050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1741243447.89
+    'REQUEST_TIME' => 1741243447
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 06:44:08 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 06:44:08 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#12 {main}
+2025-03-06 06:44:08 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63819'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8050'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'ac1780b0-2d61-443d-8436-84bba1366082'
+    'HTTP_HOST' => 'localhost:8050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1741243448.6571
+    'REQUEST_TIME' => 1741243448
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 06:49:41 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 06:49:41 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#12 {main}
+2025-03-06 06:49:41 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63895'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8050'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'fbb1ff03-b330-4489-aa0d-d0eaed819142'
+    'HTTP_HOST' => 'localhost:8050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1741243781.7826
+    'REQUEST_TIME' => 1741243781
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 06:55:53 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 06:55:53 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(88): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\CompositeAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#3 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(59): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\CompositeAuth->beforeAction(Object(yii\rest\IndexAction))
+#5 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#11 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#12 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#14 {main}
+2025-03-06 06:55:53 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63924'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8050'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '8907564d-2457-439a-a7d1-3afaba3a5976'
+    'HTTP_HOST' => 'localhost:8050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1741244153.3905
+    'REQUEST_TIME' => 1741244153
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 06:58:28 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 06:58:28 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(88): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\CompositeAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#3 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(59): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\CompositeAuth->beforeAction(Object(yii\rest\IndexAction))
+#5 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#11 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#12 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#14 {main}
+2025-03-06 06:58:28 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63967'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8050'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'ff8826a5-9712-4de2-bd44-e4bfb47051a7'
+    'HTTP_HOST' => 'localhost:8050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1741244308.4483
+    'REQUEST_TIME' => 1741244308
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 06:58:29 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 06:58:29 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(88): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\CompositeAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#3 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(59): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\CompositeAuth->beforeAction(Object(yii\rest\IndexAction))
+#5 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#11 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#12 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#14 {main}
+2025-03-06 06:58:29 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63974'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8050'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'b75d8a71-a652-43f3-a8b6-f97b4f403994'
+    'HTTP_HOST' => 'localhost:8050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1741244309.1558
+    'REQUEST_TIME' => 1741244309
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 06:58:30 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 06:58:30 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(88): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\CompositeAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#3 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(59): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\CompositeAuth->beforeAction(Object(yii\rest\IndexAction))
+#5 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#11 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#12 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#14 {main}
+2025-03-06 06:58:30 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63980'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8050'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '1ed27286-bc7c-4063-9fec-e4723727d2fd'
+    'HTTP_HOST' => 'localhost:8050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1741244310.0287
+    'REQUEST_TIME' => 1741244310
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 06:58:45 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 06:58:45 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(88): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\CompositeAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#3 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(59): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\CompositeAuth->beforeAction(Object(yii\rest\IndexAction))
+#5 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#11 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#12 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#14 {main}
+2025-03-06 06:58:45 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63988'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8050'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'fb4f6fb7-05b2-4870-ad1f-8599d4c0c834'
+    'HTTP_HOST' => 'localhost:8050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'PHP_AUTH_USER' => '***'
+    'REQUEST_TIME_FLOAT' => 1741244325.4694
+    'REQUEST_TIME' => 1741244325
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 06:59:06 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 06:59:06 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpHeaderAuth.php(65): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(88): yii\filters\auth\HttpHeaderAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\CompositeAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#3 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(59): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\CompositeAuth->beforeAction(Object(yii\rest\IndexAction))
+#5 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#11 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#12 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#14 {main}
+2025-03-06 06:59:06 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '64001'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8050'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'd8f00ecb-d4c0-4ac1-97b7-9bc5d1274e04'
+    'HTTP_HOST' => 'localhost:8050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'REQUEST_TIME_FLOAT' => 1741244346.1469
+    'REQUEST_TIME' => 1741244346
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 06:59:32 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 06:59:32 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(88): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\CompositeAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#3 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(59): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\CompositeAuth->beforeAction(Object(yii\rest\IndexAction))
+#5 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#11 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#12 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#14 {main}
+2025-03-06 06:59:32 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '64013'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8050'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'a662e046-7427-4a70-976d-5cb9d9564bea'
+    'HTTP_HOST' => 'localhost:8050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'PHP_AUTH_USER' => '***'
+    'REQUEST_TIME_FLOAT' => 1741244372.7099
+    'REQUEST_TIME' => 1741244372
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 07:01:00 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 07:01:00 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(88): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\CompositeAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#3 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(59): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\CompositeAuth->beforeAction(Object(yii\rest\IndexAction))
+#5 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#11 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#12 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#14 {main}
+2025-03-06 07:01:00 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '64031'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8050'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '6ef46ca8-13b5-41ca-9489-8b42d1cd8f36'
+    'HTTP_HOST' => 'localhost:8050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1741244460.6534
+    'REQUEST_TIME' => 1741244460
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 07:01:01 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 07:01:01 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(88): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\CompositeAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#3 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(59): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\CompositeAuth->beforeAction(Object(yii\rest\IndexAction))
+#5 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#11 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#12 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#14 {main}
+2025-03-06 07:01:01 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '64036'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8050'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '0010f0c5-cd5f-4744-b6b5-d3e04bfcd852'
+    'HTTP_HOST' => 'localhost:8050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1741244461.4968
+    'REQUEST_TIME' => 1741244461
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 07:01:22 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 07:01:22 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(88): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\CompositeAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#3 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(59): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\CompositeAuth->beforeAction(Object(yii\rest\IndexAction))
+#5 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#11 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#12 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#14 {main}
+2025-03-06 07:01:22 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '64057'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8050'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '8fe18818-2be4-47ed-917e-8e4596733f34'
+    'HTTP_HOST' => 'localhost:8050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1741244482.6561
+    'REQUEST_TIME' => 1741244482
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 07:01:23 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 07:01:23 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(88): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\CompositeAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#3 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(59): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\CompositeAuth->beforeAction(Object(yii\rest\IndexAction))
+#5 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#11 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#12 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#14 {main}
+2025-03-06 07:01:23 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '64062'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8050'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '4917e125-0c16-4bf0-aa13-0be0947cd342'
+    'HTTP_HOST' => 'localhost:8050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1741244483.3155
+    'REQUEST_TIME' => 1741244483
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 07:02:47 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 07:02:47 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(88): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\CompositeAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#3 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(59): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\CompositeAuth->beforeAction(Object(yii\rest\IndexAction))
+#5 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#11 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#12 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#14 {main}
+2025-03-06 07:02:47 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '64079'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8050'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '83cb7f39-b37e-4417-b162-d1018f8cfe89'
+    'HTTP_HOST' => 'localhost:8050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1741244567.662
+    'REQUEST_TIME' => 1741244567
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 07:03:11 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 07:03:11 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(88): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\CompositeAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#3 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(59): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\CompositeAuth->beforeAction(Object(yii\rest\IndexAction))
+#5 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#11 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#12 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#14 {main}
+2025-03-06 07:03:11 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '64094'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8050'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'da44a0bb-0b08-42b9-9e56-af573109657b'
+    'HTTP_HOST' => 'localhost:8050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1741244591.7755
+    'REQUEST_TIME' => 1741244591
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 07:05:00 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 07:05:00 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(88): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\CompositeAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#3 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(59): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\CompositeAuth->beforeAction(Object(yii\rest\IndexAction))
+#5 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#11 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#12 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#14 {main}
+2025-03-06 07:05:00 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '64113'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8050'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '88928e69-42c6-41c2-b65c-62d9787798bb'
+    'HTTP_HOST' => 'localhost:8050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1741244700.5561
+    'REQUEST_TIME' => 1741244700
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 07:05:01 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 07:05:01 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(88): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\CompositeAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#3 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(59): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\CompositeAuth->beforeAction(Object(yii\rest\IndexAction))
+#5 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#11 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#12 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#14 {main}
+2025-03-06 07:05:01 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '64118'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8050'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '889d799c-c7cf-4471-b6ca-1dbca1459d44'
+    'HTTP_HOST' => 'localhost:8050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1741244701.4783
+    'REQUEST_TIME' => 1741244701
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 07:05:02 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 07:05:02 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(88): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\CompositeAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#3 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(59): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\CompositeAuth->beforeAction(Object(yii\rest\IndexAction))
+#5 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#11 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#12 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#14 {main}
+2025-03-06 07:05:02 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '64124'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8050'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '3227ab95-7b39-4711-87de-90491f080e71'
+    'HTTP_HOST' => 'localhost:8050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1741244702.1663
+    'REQUEST_TIME' => 1741244702
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 07:07:06 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 07:07:06 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(88): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\CompositeAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#3 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(59): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\CompositeAuth->beforeAction(Object(yii\rest\IndexAction))
+#5 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#11 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#12 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#14 {main}
+2025-03-06 07:07:06 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '64138'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8050'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '8d8ea60e-de8e-4aa9-b4b6-c1c246094833'
+    'HTTP_HOST' => 'localhost:8050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1741244826.5957
+    'REQUEST_TIME' => 1741244826
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 07:07:07 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 07:07:07 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(88): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\CompositeAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#3 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(59): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\CompositeAuth->beforeAction(Object(yii\rest\IndexAction))
+#5 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#11 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#12 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#14 {main}
+2025-03-06 07:07:07 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '64142'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8050'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'a479cabf-ae4e-4685-a17f-74a7350d34ee'
+    'HTTP_HOST' => 'localhost:8050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1741244827.273
+    'REQUEST_TIME' => 1741244827
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 07:07:07 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 07:07:07 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(88): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\CompositeAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#3 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(59): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\CompositeAuth->beforeAction(Object(yii\rest\IndexAction))
+#5 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#11 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#12 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#14 {main}
+2025-03-06 07:07:07 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '64146'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8050'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'a10b5815-49c2-4f12-93b1-93e74a97d23a'
+    'HTTP_HOST' => 'localhost:8050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1741244827.6331
+    'REQUEST_TIME' => 1741244827
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 07:07:08 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 07:07:08 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(88): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\CompositeAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#3 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(59): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\CompositeAuth->beforeAction(Object(yii\rest\IndexAction))
+#5 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#11 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#12 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#14 {main}
+2025-03-06 07:07:08 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '64154'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8050'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '2f8b8696-a238-4b48-939b-9e03d4a1614e'
+    'HTTP_HOST' => 'localhost:8050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1741244828.8633
+    'REQUEST_TIME' => 1741244828
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 07:07:33 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 07:07:33 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(88): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\CompositeAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#3 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(59): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\CompositeAuth->beforeAction(Object(yii\rest\IndexAction))
+#5 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#11 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#12 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#14 {main}
+2025-03-06 07:07:33 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '64181'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8040'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '9b18898f-b4db-4cd8-8bb5-0027b50b3604'
+    'HTTP_HOST' => 'localhost:8040'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1741244853.761
+    'REQUEST_TIME' => 1741244853
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 07:08:34 [::1][5][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 07:08:35 [::1][5][-][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Request.php:1728
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Request.php(1710): yii\web\Request->loadCookies()
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Request.php(1798): yii\web\Request->getCookies()
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Request.php(1780): yii\web\Request->loadCsrfToken()
+#3 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/User.php(286): yii\web\Request->getCsrfToken(true)
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/User.php(268): yii\web\User->regenerateCsrfToken()
+#5 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(104): yii\web\User->login(Object(common\models\User))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#8 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#11 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#12 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#13 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#14 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#15 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#17 {main}
+2025-03-06 07:08:34 [::1][5][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '64194'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8040'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'cbe0c56e-a071-445f-8fad-154f6cbb3538'
+    'HTTP_HOST' => 'localhost:8040'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1741244914.7452
+    'REQUEST_TIME' => 1741244914
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 07:09:30 [::1][5][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 07:09:30 [::1][5][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '64206'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8040'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'b7b71b90-03fa-4625-98c5-a91ab1a8d789'
+    'HTTP_HOST' => 'localhost:8040'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1741244970.9124
+    'REQUEST_TIME' => 1741244970
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 07:13:51 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 07:13:51 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpHeaderAuth.php(65): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\HttpHeaderAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#12 {main}
+2025-03-06 07:13:51 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-api' => '91a4f3dd5d482fb079c1731689b17d56d4921ea79236f58b7a1dab4ad9ffadffa:2:{i:0;s:9:\"_csrf-api\";i:1;s:32:\"-nEBzR8qWWReLXXuMYkRR1AooAG9Nihs\";}'
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '64231'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8040'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '0d920824-0818-48d6-8a25-a3b73362bd81'
+    'HTTP_HOST' => 'localhost:8040'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-api=91a4f3dd5d482fb079c1731689b17d56d4921ea79236f58b7a1dab4ad9ffadffa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_csrf-api%22%3Bi%3A1%3Bs%3A32%3A%22-nEBzR8qWWReLXXuMYkRR1AooAG9Nihs%22%3B%7D; _csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'REQUEST_TIME_FLOAT' => 1741245231.933
+    'REQUEST_TIME' => 1741245231
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 07:13:52 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 07:13:53 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpHeaderAuth.php(65): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\HttpHeaderAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#12 {main}
+2025-03-06 07:13:52 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-api' => '91a4f3dd5d482fb079c1731689b17d56d4921ea79236f58b7a1dab4ad9ffadffa:2:{i:0;s:9:\"_csrf-api\";i:1;s:32:\"-nEBzR8qWWReLXXuMYkRR1AooAG9Nihs\";}'
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '64236'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8040'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '6eaf21f2-98e1-477b-9a82-acdd19859d9f'
+    'HTTP_HOST' => 'localhost:8040'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-api=91a4f3dd5d482fb079c1731689b17d56d4921ea79236f58b7a1dab4ad9ffadffa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_csrf-api%22%3Bi%3A1%3Bs%3A32%3A%22-nEBzR8qWWReLXXuMYkRR1AooAG9Nihs%22%3B%7D; _csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'REQUEST_TIME_FLOAT' => 1741245232.9873
+    'REQUEST_TIME' => 1741245232
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 07:13:53 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 07:13:53 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpHeaderAuth.php(65): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\HttpHeaderAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#12 {main}
+2025-03-06 07:13:53 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-api' => '91a4f3dd5d482fb079c1731689b17d56d4921ea79236f58b7a1dab4ad9ffadffa:2:{i:0;s:9:\"_csrf-api\";i:1;s:32:\"-nEBzR8qWWReLXXuMYkRR1AooAG9Nihs\";}'
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '64241'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8040'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '8db3889b-fe3d-4a03-bf8b-42dc6f2460fc'
+    'HTTP_HOST' => 'localhost:8040'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-api=91a4f3dd5d482fb079c1731689b17d56d4921ea79236f58b7a1dab4ad9ffadffa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_csrf-api%22%3Bi%3A1%3Bs%3A32%3A%22-nEBzR8qWWReLXXuMYkRR1AooAG9Nihs%22%3B%7D; _csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'REQUEST_TIME_FLOAT' => 1741245233.6759
+    'REQUEST_TIME' => 1741245233
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 07:13:54 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 07:13:54 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpHeaderAuth.php(65): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\HttpHeaderAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#12 {main}
+2025-03-06 07:13:54 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-api' => '91a4f3dd5d482fb079c1731689b17d56d4921ea79236f58b7a1dab4ad9ffadffa:2:{i:0;s:9:\"_csrf-api\";i:1;s:32:\"-nEBzR8qWWReLXXuMYkRR1AooAG9Nihs\";}'
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '64245'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8040'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'a8c96ff1-17c6-4aef-9d49-bf70a1069b92'
+    'HTTP_HOST' => 'localhost:8040'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-api=91a4f3dd5d482fb079c1731689b17d56d4921ea79236f58b7a1dab4ad9ffadffa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_csrf-api%22%3Bi%3A1%3Bs%3A32%3A%22-nEBzR8qWWReLXXuMYkRR1AooAG9Nihs%22%3B%7D; _csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'REQUEST_TIME_FLOAT' => 1741245234.4597
+    'REQUEST_TIME' => 1741245234
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 07:13:57 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 07:13:57 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(76): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#11 {main}
+2025-03-06 07:13:57 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-api' => '91a4f3dd5d482fb079c1731689b17d56d4921ea79236f58b7a1dab4ad9ffadffa:2:{i:0;s:9:\"_csrf-api\";i:1;s:32:\"-nEBzR8qWWReLXXuMYkRR1AooAG9Nihs\";}'
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '64250'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8040'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'e5423f02-9ed3-4f8e-b4e0-50ff0c40576c'
+    'HTTP_HOST' => 'localhost:8040'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-api=91a4f3dd5d482fb079c1731689b17d56d4921ea79236f58b7a1dab4ad9ffadffa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_csrf-api%22%3Bi%3A1%3Bs%3A32%3A%22-nEBzR8qWWReLXXuMYkRR1AooAG9Nihs%22%3B%7D; _csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1741245237.5368
+    'REQUEST_TIME' => 1741245237
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 07:14:22 [::1][5][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 07:14:22 [::1][5][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-api' => '91a4f3dd5d482fb079c1731689b17d56d4921ea79236f58b7a1dab4ad9ffadffa:2:{i:0;s:9:\"_csrf-api\";i:1;s:32:\"-nEBzR8qWWReLXXuMYkRR1AooAG9Nihs\";}'
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '64261'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8040'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '8800ba1b-32d8-4ac7-83b1-a28be1643af7'
+    'HTTP_HOST' => 'localhost:8040'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-api=91a4f3dd5d482fb079c1731689b17d56d4921ea79236f58b7a1dab4ad9ffadffa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_csrf-api%22%3Bi%3A1%3Bs%3A32%3A%22-nEBzR8qWWReLXXuMYkRR1AooAG9Nihs%22%3B%7D; _csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1741245262.6456
+    'REQUEST_TIME' => 1741245262
+    'argv' => []
+    'argc' => 0
+]
+2025-03-06 07:14:29 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-06 07:14:29 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(102): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#12 {main}
+2025-03-06 07:14:29 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-api' => '585926880c7ba894a7e16637654a2303461de307559fe55421a55e27b0313d6ba:2:{i:0;s:9:\"_csrf-api\";i:1;s:32:\"yxl04akrXdwcfU7aruK0wrpNwsBWESyA\";}'
+    '_csrf-frontend' => '868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD\";}'
+    'advanced-frontend' => '346964e3146063cb330834e110d4f94b'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '64268'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8040'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'ac370e89-59e2-4535-8ea9-befead491872'
+    'HTTP_HOST' => 'localhost:8040'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-api=585926880c7ba894a7e16637654a2303461de307559fe55421a55e27b0313d6ba%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_csrf-api%22%3Bi%3A1%3Bs%3A32%3A%22yxl04akrXdwcfU7aruK0wrpNwsBWESyA%22%3B%7D; _csrf-frontend=868f141a5fefd181353f905900af4e24f576ebd53e7689426c046e973a51827fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mYPRbHmvZE9Ly4pCrKTssb6Y7yzKNsoD%22%3B%7D; advanced-frontend=346964e3146063cb330834e110d4f94b'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1741245269.3167
+    'REQUEST_TIME' => 1741245269
+    'argv' => []
+    'argc' => 0
+]
+2025-03-12 02:27:25 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-12 02:27:26 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(102): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#12 {main}
+2025-03-12 02:27:25 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54995'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8070'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '8b194608-3964-45f5-a13e-8c4527cf0bc3'
+    'HTTP_HOST' => 'localhost:8070'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1741746445.9448
+    'REQUEST_TIME' => 1741746445
+    'argv' => []
+    'argc' => 0
+]
+2025-03-12 02:27:37 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-12 02:27:37 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(102): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#12 {main}
+2025-03-12 02:27:37 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55008'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8070'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'f110291a-5789-4511-91b6-64c7715ca76a'
+    'HTTP_HOST' => 'localhost:8070'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1741746457.1902
+    'REQUEST_TIME' => 1741746457
+    'argv' => []
+    'argc' => 0
+]
+2025-03-12 02:27:50 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-12 02:27:50 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(102): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#12 {main}
+2025-03-12 02:27:50 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55018'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8070'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'ae2b48ef-2807-4153-9aaf-26096802a063'
+    'HTTP_HOST' => 'localhost:8070'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1741746470.0161
+    'REQUEST_TIME' => 1741746470
+    'argv' => []
+    'argc' => 0
+]
+2025-03-12 02:27:54 [::1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-12 02:27:55 [::1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:93
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(102): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(58): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Component.php(641): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Controller.php(219): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#9 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/index', Array)
+#10 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#12 {main}
+2025-03-12 02:27:54 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55028'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8070'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'aa9482d7-8f39-43d2-901f-b3cdafe27955'
+    'HTTP_HOST' => 'localhost:8070'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1741746474.6147
+    'REQUEST_TIME' => 1741746474
+    'argv' => []
+    'argc' => 0
+]
+2025-03-12 02:27:58 [::1][3][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-12 02:27:58 [::1][3][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55032'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8070'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '269a6fac-af2f-46a2-8cad-d83a3aa58dd7'
+    'HTTP_HOST' => 'localhost:8070'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1741746478.0829
+    'REQUEST_TIME' => 1741746478
+    'argv' => []
+    'argc' => 0
+]
+2025-03-12 02:50:34 [::1][3][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-12 02:50:35 [::1][3][-][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Invalid JSON data in request body: Syntax error in /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/JsonParser.php:60
+Stack trace:
+#0 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Request.php(591): yii\web\JsonParser->parse('   {\n        "n...', 'application/jso...')
+#1 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/rest/CreateAction.php(51): yii\web\Request->getBodyParams()
+#2 [internal function]: yii\rest\CreateAction->run()
+#3 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Action.php(93): call_user_func_array(Array, Array)
+#4 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\Action->runWithParams(Array)
+#5 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('create', Array)
+#6 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('student/create', Array)
+#7 /opt/homebrew/var/www/Выпускник-Advanced/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /opt/homebrew/var/www/Выпускник-Advanced/api/index.php(10): yii\base\Application->run()
+#9 {main}
+2025-03-12 02:50:34 [::1][3][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-api' => '3ae541b7ea40e1b280b3fa93688ff2a172a3899016cf16dcd6bf7099246bb5d0a:2:{i:0;s:9:\"_csrf-api\";i:1;s:32:\"uHbibqiMMtLQG0wVG8sHBxMATVvnNSGi\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55095'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8070'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'c0b27dd4-77a6-4ee2-8625-ffd0db33ca1a'
+    'HTTP_HOST' => 'localhost:8070'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '1219'
+    'HTTP_CONTENT_LENGTH' => '1219'
+    'HTTP_COOKIE' => '_csrf-api=3ae541b7ea40e1b280b3fa93688ff2a172a3899016cf16dcd6bf7099246bb5d0a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_csrf-api%22%3Bi%3A1%3Bs%3A32%3A%22uHbibqiMMtLQG0wVG8sHBxMATVvnNSGi%22%3B%7D'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1741747834.845
+    'REQUEST_TIME' => 1741747834
+    'argv' => []
+    'argc' => 0
+]
+2025-03-12 02:50:45 [::1][3][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2025-03-12 02:50:45 [::1][3][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-api' => '4ddf0394ca6cce1f8e22a9695cf4314977e60d75b2277aab3dbee2f13e1b2410a:2:{i:0;s:9:\"_csrf-api\";i:1;s:32:\"A2dzyP6GbYiCxED77s-EugkgMZcueMEO\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/opt/homebrew/var/www/Выпускник-Advanced/api'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55105'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8070'
+    'REQUEST_URI' => '/students'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/opt/homebrew/var/www/Выпускник-Advanced/api/index.php'
+    'PATH_INFO' => '/students'
+    'PHP_SELF' => '/index.php/students'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.43.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'e577f6fa-882a-42a6-82f1-a81ad0f0b0e6'
+    'HTTP_HOST' => 'localhost:8070'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '371'
+    'HTTP_CONTENT_LENGTH' => '371'
+    'HTTP_COOKIE' => '_csrf-api=4ddf0394ca6cce1f8e22a9695cf4314977e60d75b2277aab3dbee2f13e1b2410a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_csrf-api%22%3Bi%3A1%3Bs%3A32%3A%22A2dzyP6GbYiCxED77s-EugkgMZcueMEO%22%3B%7D'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1741747845.6141
+    'REQUEST_TIME' => 1741747845
+    'argv' => []
+    'argc' => 0
+]

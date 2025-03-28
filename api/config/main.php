@@ -8,6 +8,7 @@ return [
   'components' => [
     'request' => [
       'csrfParam' => '_csrf-api',
+      'cookieValidationKey' => 'hrwhgnjrwgnjewbfi34thj4bi',
       'parsers' => [
         'application/json' => 'yii\web\JsonParser',
       ]
